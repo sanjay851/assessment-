@@ -1,0 +1,64 @@
+body{
+    background-color:burlywood;
+     border: 5px solid black; 
+     height: 100%;
+}
+.ph{
+    color: blue;
+    margin-left: 38%;
+}
+.nav{
+    color: blue;
+    margin-left: 8%;
+    
+}
+.img1{
+   position: absolute;
+   left: 350px;
+   top: 120px;
+}
+.img2{
+    position: absolute;
+   left: 950px;
+   top: 120px;
+}
+.footer{
+    color: blue;
+    margin-left: 42%;
+}
+@media(min-width:320px) and (max-width:480px){
+    body{
+        background-color: aqua;
+        border: 5px solid black; 
+    }
+    .ph{
+        color: blue;
+        margin-left: 28%;
+    }
+    .nav{
+        position: absolute;
+        color: blue;
+        margin-left: 8%;
+        left: 120px;
+        top: 130px;
+        
+    }
+    .img1{
+       position: absolute;
+       left: 15px;
+       top: 200px;
+       width: 91%;
+       height: 100px;
+    }
+    .img2{
+        position: absolute;
+       left: 15px;
+       top: 310px;
+       width: 91%;
+       height: 100px;
+    }
+    .footer{
+        color: blue;
+        margin-left: 35%;
+    }
+}
